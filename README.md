@@ -10,3 +10,17 @@
         * #### Það er reiknirit sem tekur n^2 tíma að keyra og er eins og tvær lykkjur þar sem önnur er inn í hinni eins og selection sort reiknirit fyrir tölu lista þar sem fyrsta loopið myndi fara í gegnum hverja tölu fyrir sig og síðan seinni kíkir hvort hvert stak sé minna en öll stök á eftir því annars skiptir þeim um stað og fer í næstu tölu.
     * #### O(log(n))
         * #### Það er reiknirit sem tekur log(n) tíma að keyra og væri reiknirit sem myndi ekki þurfa að fara í gegnum allar tölur eins og tvíundarleit þar sem það byrjar að skipta til dæmis lista af tölum í tvennt og ber tölununa í miðjum listanum við það sem er leitað af og ef það er hærra þá heldur það áfram með helminginn með hærri tölunum í, annars myndi það halda áfram með hinn helminginn og síðan heldur það áfram að deila í tvennt, bera saman og alveg þangað til talan er fundið.
+* ### Dæmi 4
+    * #### a ) 26 nCr x
+        * #### Þar sem x er fjöldi bókstafa hvert orða á að hafa.
+    * #### b ) Flækjutími fallsins er O(nCr)
+        * #### Tímamælingar
+            * n = 2 tekur sirka 0,09 ms
+            * n = 3 tekur sirka 0,8 ms
+            * n = 4 tekur sirka 5,4 ms
+            * Hver hækkun á n hækkar keyrslu tímann margfalt oftar.
+* ### Dæmi 5
+    * #### a )
+    * #### b )
+        * #### Flækjutími bubble sort er: O(n^2)
+    * #### c )
