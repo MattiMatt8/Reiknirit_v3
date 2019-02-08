@@ -29,11 +29,11 @@
             * n = 2 tekur sirka 0,17 ms
             * n = 3 tekur sirka 32 ms
             * n = 4 tekur sirka 82000 ms
-            * Þetta sýnir hversu hægt bubblesort verður fljótt þegar listarnir til að larna verða stærri og stærri.
+            * Þetta sýnir hversu hægvirt bubblesort verður fljótt þegar listarnir til að raða verða stærri og stærri.
         * #### Flækjutími bubble sort er: O(n^2)
     * #### c )
         * Ég prufaði að tímamæla lista með heiltölum og strengjum og fékk þetta út
             * Listi með 396 heiltölur sem eru frá 1-9 tekur rúmlega 25 ms að keyra
             * Listi með 396 heiltölur sem eru frá 1.000.000.000 - 9.999.999.999 tekur rúmlega 30 ms að keyra
-            * Ef maður ber þetta saman við niðurstöðurnar úr A liðnum þá er það hraðara að raða heiltölum en það eru samt tilvik þar sem það tekur svipaðann tíma eða sama miðað við hversu stórar tölur er verið að vinna með og hversu langir strengirnir sem er verið að vinna með eins og að raða tölum frá 1-9 og að raða strengjum af lengindinni 1 tekur eiginlega sama tíma.
+            * Ef maður ber þetta saman við niðurstöðurnar úr A liðnum þá er það hraðara að raða heiltölum en það eru samt tilvik þar sem það tekur svipaðann tíma eða sama miðað við hversu stórar tölur er verið að vinna með og hversu langir strengirnir sem er verið að vinna með eins og að raða tölum frá 1-9 og að raða strengjum af lengindinni 1 tekur eiginlega sama tímann.
 
