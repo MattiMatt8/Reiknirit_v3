@@ -35,5 +35,5 @@
         * Ég prufaði að tímamæla lista með heiltölum og strengjum og fékk þetta út
             * Listi með 396 heiltölur sem eru frá 1-9 tekur rúmlega 25 ms að keyra
             * Listi með 396 heiltölur sem eru frá 1.000.000.000 - 9.999.999.999 tekur rúmlega 30 ms að keyra
-            * Ef maður ber þetta saman við niðurstöðurnar úr A liðnum þá er það hraðara að raða heiltölum en það eru samt tilvik þar sem það tekur svipaðann tíma eða sama miðað við hversu stórar tölur er verið að vinna með og hversu langir strengirnir sem er verið að vinna með eins og að raða tölum frá 1-9 og að raða strengjum af lengindinni 1.
+            * Ef maður ber þetta saman við niðurstöðurnar úr A liðnum þá er það hraðara að raða heiltölum en það eru samt tilvik þar sem það tekur svipaðann tíma eða sama miðað við hversu stórar tölur er verið að vinna með og hversu langir strengirnir sem er verið að vinna með eins og að raða tölum frá 1-9 og að raða strengjum af lengindinni 1 tekur eiginlega sama tíma.
 
