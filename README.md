@@ -21,6 +21,18 @@
             * Hver hækkun á n hækkar keyrslu tímann margfalt oftar.
 * ### Dæmi 5
     * #### a )
+        * Já, það getur munað vel miklu miðað við hversu mikill munur er á lengdum strengjann til dæmis:
+            * Listi með 396 strengi af lengdinni 1 tekur rúmlega 0,6 ms að keyra
+            * Listi með 396 strengi af lengdinni 10 tekur rúmlega 1,6 ms að keyra
     * #### b )
+        * #### Tímamælingar
+            * n = 2 tekur sirka 0,17 ms
+            * n = 3 tekur sirka 32 ms
+            * n = 4 tekur sirka 82000 ms
+            * Þetta sýnir hversu hægt bubblesort verður fljótt þegar listarnir til að larna verða stærri og stærri.
         * #### Flækjutími bubble sort er: O(n^2)
     * #### c )
+        * Ég prufaði að tímamæla lista með heiltölum og strengjum og fékk þetta út
+            * Listi með 396 heiltölur sem eru frá 1-9 tekur rúmlega 0,6 ms að keyra
+            * Listi með 396 heiltölur sem eru frá 1.000.000.000 - 9.999.999.999 tekur rúmlega 1,1 ms að keyra
+            * Ef maður ber þetta saman við niðurstöðurnar úr A liðnum þá er það hraðara að raða heiltölum en það eru samt tilvik þar sem það tekur svipaðann tíma eða sama miðað við hversu stórar tölur er verið að vinna með og hversu langir strengirnir sem er verið að vinna með eins og að raða tölum frá 1-9 og að raða strengjum af lengindinni 1.
