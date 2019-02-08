@@ -12,7 +12,7 @@
         * #### Það er reiknirit sem tekur log(n) tíma að keyra og væri reiknirit sem myndi ekki þurfa að fara í gegnum allar tölur eins og tvíundarleit þar sem það byrjar að skipta til dæmis lista af tölum í tvennt og ber tölununa í miðjum listanum við það sem er leitað af og ef það er hærra þá heldur það áfram með helminginn með hærri tölunum í, annars myndi það halda áfram með hinn helminginn og síðan heldur það áfram að deila í tvennt, bera saman og alveg þangað til talan er fundið.
 * ### Dæmi 4
     * #### a ) 26 nCr x
-        * #### Þar sem x er fjöldi bókstafa sem hvert orð á að hafa.
+        * #### Þar sem x er fjöldi bókstafa sem hver strengur á að hafa.
     * #### b ) Flækjutími fallsins er O(nCr)
         * #### Tímamælingar
             * n = 2 tekur sirka 0,09 ms
