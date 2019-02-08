@@ -12,7 +12,7 @@
         * #### Það er reiknirit sem tekur log(n) tíma að keyra og væri reiknirit sem myndi ekki þurfa að fara í gegnum allar tölur eins og tvíundarleit þar sem það byrjar að skipta til dæmis lista af tölum í tvennt og ber tölununa í miðjum listanum við það sem er leitað af og ef það er hærra þá heldur það áfram með helminginn með hærri tölunum í, annars myndi það halda áfram með hinn helminginn og síðan heldur það áfram að deila í tvennt, bera saman og alveg þangað til talan er fundið.
 * ### Dæmi 4
     * #### a ) 26 nCr x
-        * #### Þar sem x er fjöldi bókstafa hvert orða á að hafa.
+        * #### Þar sem x er fjöldi bókstafa sem hvert orð á að hafa.
     * #### b ) Flækjutími fallsins er O(nCr)
         * #### Tímamælingar
             * n = 2 tekur sirka 0,09 ms
@@ -36,3 +36,4 @@
             * Listi með 396 heiltölur sem eru frá 1-9 tekur rúmlega 0,6 ms að keyra
             * Listi með 396 heiltölur sem eru frá 1.000.000.000 - 9.999.999.999 tekur rúmlega 1,1 ms að keyra
             * Ef maður ber þetta saman við niðurstöðurnar úr A liðnum þá er það hraðara að raða heiltölum en það eru samt tilvik þar sem það tekur svipaðann tíma eða sama miðað við hversu stórar tölur er verið að vinna með og hversu langir strengirnir sem er verið að vinna með eins og að raða tölum frá 1-9 og að raða strengjum af lengindinni 1.
+
